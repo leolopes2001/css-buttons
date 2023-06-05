@@ -1,4 +1,2 @@
-function actionToggle() {
-    const action = document.querySelector('.action');
-    action.classList.toggle('active')
-  }
+const actionToggle = () =>
+  document.querySelector(".action").classList.toggle("active");
